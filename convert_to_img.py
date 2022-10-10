@@ -177,7 +177,7 @@ class LinearCodec(TileCodec):
 
 
 
-for i in [i.name for i in os.scandir(r"C:\Users\egorl\PycharmProjects\tww_ds\badge")]:
+for i in [i.name for i in os.scandir("btlbadge")]:
     a = LinearCodec(4, 2)
     with open(f"badge/{i}", "rb") as f:
         bytedata = f.read()
