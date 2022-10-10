@@ -1,5 +1,6 @@
 Python scripts for graphics of The World Ends With You (especially pins)
-Many thanks to Yepoleb for his TileCodecs scripts (https://github.com/Yepoleb/TileCodecs)
+
+Many thanks to Yepoleb for their TileCodecs scripts (https://github.com/Yepoleb/TileCodecs)!
 
 How to use:
 1. Cut pins with separate.py
