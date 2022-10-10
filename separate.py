@@ -6,7 +6,7 @@ with open("Grp_BtlBadge.bin", "rb") as f:
 
 hexdata = binascii.hexlify(bytedata)
 hexdata2 = str(hexdata).rstrip("'").strip("b'")
-hexdata3 = ["00000000" + i + "" for i in hexdata2.split("7061636b")][1::]
+hexdata3 = ["00000000" + i + "" for i in hexdata2.split("7061636b")][2::]
 print()
 for i in range(len(hexdata3)):
     with open(f"btlbadge/{i}.bin", "wb") as file:
